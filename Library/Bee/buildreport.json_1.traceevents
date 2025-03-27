@@ -1,0 +1,584 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1684041990527791, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684041990530057, "dur": 27578, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684041990557835, "dur": 66552, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684041990624419, "dur": 526368, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684041991150789, "dur": 7907781, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684041999058605, "dur": 18627, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684042010039975, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684042010040299, "dur": 8641, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684042010048942, "dur": 47680, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684042010096623, "dur": 345371, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684042010441997, "dur": 327569, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684042010769568, "dur": 4530, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684042010774999, "dur": 54, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1684042010239369, "dur": 172340, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684042010240610, "dur": 74372, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684042010388811, "dur": 6383, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684042010395200, "dur": 16496, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684042010396157, "dur": 14191, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684042010417928, "dur": 1538, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684042010416642, "dur": 2850, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684042010775268, "dur": 2964, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1684042010504652, "dur":1766, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684042010506428, "dur":170, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1684042010506656, "dur":28, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1684042010506686, "dur":429, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1684042010507153, "dur":1045, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684042010508199, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684042010734805, "dur":450, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684042010735255, "dur":41, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684042010735296, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684042010735305, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684042010735326, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684042010735329, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684042010735341, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684042010735344, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684042010735355, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684042010735358, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684042010735370, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684042010735372, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684042010735383, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684042010735386, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684042010735396, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684042010735398, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684042010735409, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684042010735437, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684042010735463, "dur":3610, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1684042010507336, "dur":869, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010508208, "dur":7716, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010515942, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684042010515947, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010516045, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684042010516053, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010518022, "dur":3180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684042010521205, "dur":9715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1684042010530927, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010530940, "dur":1881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1684042010532894, "dur":10341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1684042010543240, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010543253, "dur":2907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1684042010546231, "dur":22958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto.exe" }}
+,{ "pid":12345, "tid":1, "ts":1684042010569198, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010569209, "dur":2374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto.exe" }}
+,{ "pid":12345, "tid":1, "ts":1684042010571742, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010571831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010571841, "dur":2226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010574139, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010574210, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010574220, "dur":2388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010576703, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010576800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010576809, "dur":2004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010578888, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010578945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010578953, "dur":2252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010581274, "dur":527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010581848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010581859, "dur":4128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010586186, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010586298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010586310, "dur":2073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010588462, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010588544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010588555, "dur":2043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010590666, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010590756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010590766, "dur":3664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010594507, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010594600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010594611, "dur":1995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010596694, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010596787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010596836, "dur":7348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010604252, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010604322, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010604330, "dur":5824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010610266, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010610343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010610353, "dur":4828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010615274, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010615350, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010615360, "dur":2136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010617559, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010617623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010617630, "dur":3843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010621546, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010621610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010621617, "dur":4658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010626343, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010626425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010626432, "dur":2810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010629312, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010629612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010629790, "dur":3944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010633788, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010634216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010634223, "dur":4166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010638469, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010638747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010638758, "dur":2452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010641275, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010641346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010641355, "dur":2811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010644254, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010644329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010644340, "dur":4036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010648473, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010648543, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010648559, "dur":2532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010651173, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010651246, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010651257, "dur":4576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010655916, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.DirectoryServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010656006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010656018, "dur":4010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.DirectoryServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010660170, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.ComponentModel.DataAnnotations.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010660253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010660264, "dur":3047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.ComponentModel.DataAnnotations.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010663372, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010663477, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010663603, "dur":6094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684042010669767, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1684042010669840, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010669848, "dur":2620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1684042010672539, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684042010672604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010672614, "dur":5071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684042010677769, "dur":6045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1684042010683826, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684042010683840, "dur":2390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1684042010686304, "dur":48383, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010507386, "dur":823, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010508209, "dur":7745, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010515955, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1684042010516271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010520338, "dur":5846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1684042010526279, "dur":15200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1684042010543615, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010543634, "dur":3201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1684042010546908, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1684042010547091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010548048, "dur":23130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1684042010571248, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010571341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010571351, "dur":2173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010573606, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010573696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010573707, "dur":2384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010576170, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010576270, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010576280, "dur":2203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010578562, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010578646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010578657, "dur":2135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010580888, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010581005, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010581018, "dur":3171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010584265, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010584336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010584348, "dur":2206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010586630, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010586706, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010586714, "dur":2239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010589015, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010589085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010589130, "dur":1908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010591104, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010591178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010591187, "dur":3552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010594819, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010595038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010595047, "dur":2176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010597310, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010597397, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010597405, "dur":7627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010605127, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010605203, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010605212, "dur":7149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010612428, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010612493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010612503, "dur":2008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010614670, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010614746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010614757, "dur":2671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010617485, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010617563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010617574, "dur":3450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010621138, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010621228, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010621237, "dur":4673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010625970, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010626039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010626046, "dur":2581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010628752, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010628995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010629004, "dur":4307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010633472, "dur":943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010634420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010634464, "dur":5932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010640482, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010640696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010640705, "dur":2753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010643536, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Web.ApplicationServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010643610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010643618, "dur":5001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Web.ApplicationServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010648703, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010648772, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010648780, "dur":2870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010651722, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010651791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010651799, "dur":4227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010656104, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Design.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010656171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010656180, "dur":3836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Design.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010660084, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010660157, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010660169, "dur":2514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010662761, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010662832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010662841, "dur":5292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010668238, "dur":558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Plugins/x86/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010668803, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010670482, "dur":2415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Plugins/x86/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684042010672967, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1684042010673095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010673105, "dur":2870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1684042010676063, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1684042010676147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684042010676157, "dur":2977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1684042010679215, "dur":55491, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684042010507431, "dur":784, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684042010508216, "dur":7722, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684042010515943, "dur":622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1684042010516568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684042010520490, "dur":8559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1684042010529119, "dur":7999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1684042010537126, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684042010537142, "dur":2464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1684042010539678, "dur":80624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684042010620312, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684042010621095, "dur":4728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684042010625889, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684042010625963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684042010625974, "dur":2795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684042010628836, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684042010629270, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684042010629280, "dur":4373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684042010633744, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684042010634024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684042010634035, "dur":4347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684042010638468, "dur":575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684042010639050, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684042010639062, "dur":2400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684042010641527, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684042010641602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684042010641609, "dur":9519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684042010651181, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684042010651359, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684042010651366, "dur":4155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684042010655594, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684042010655674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684042010655684, "dur":4846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684042010660598, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684042010660714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684042010660726, "dur":2746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684042010663567, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684042010663694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684042010663820, "dur":3561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684042010667451, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684042010667734, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684042010667744, "dur":3469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684042010671279, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1684042010671651, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684042010671667, "dur":3777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1684042010675518, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684042010675602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684042010675614, "dur":5859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684042010681554, "dur":53140, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684042010507463, "dur":761, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684042010508224, "dur":7711, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684042010515943, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1684042010516284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684042010520499, "dur":5183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1684042010525757, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1684042010525964, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684042010526105, "dur":9326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1684042010535501, "dur":536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1684042010536047, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684042010536060, "dur":4149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1684042010540271, "dur":188261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684042010728539, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684042010728721, "dur":5829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684042010734636, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1684042010734638, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010507489, "dur":740, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010508230, "dur":7718, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010515952, "dur":633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1684042010516588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010521019, "dur":28013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1684042010549110, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010549200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010549610, "dur":1816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010551496, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010551571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010551785, "dur":1778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010553629, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010553706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010553716, "dur":18159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010571943, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010572019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010572028, "dur":2083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010574198, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010574277, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010574286, "dur":2420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010576792, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010576881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010576896, "dur":2097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010579050, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010579096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010579102, "dur":2049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010581225, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010581298, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010581307, "dur":3242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010584623, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010584697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010584707, "dur":2103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010586863, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010586926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010586934, "dur":2047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010589045, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010589129, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010589137, "dur":1863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010591080, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010591169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010591181, "dur":3496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010594770, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010594864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010594875, "dur":2283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010597230, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010597303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010597314, "dur":7188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010604569, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010604646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010604654, "dur":7144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010611887, "dur":1615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010613543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010613552, "dur":7865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010621513, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010621597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010621607, "dur":4649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010626330, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010626422, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010626431, "dur":2771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010629269, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010629342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010629351, "dur":4501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010633920, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010633990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010633998, "dur":3569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010637668, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010637763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010637772, "dur":3722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010641556, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Windows.Forms.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010641652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010641660, "dur":7261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Windows.Forms.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010649010, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010649083, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010649094, "dur":3510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010652683, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Drawing.Design.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010652748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010652757, "dur":3747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Drawing.Design.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010656555, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010656610, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010656616, "dur":4544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010661228, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Ookii.Dialogs.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010661281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010661291, "dur":2077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Ookii.Dialogs.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010663454, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Mono.WebBrowser.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010663518, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010663526, "dur":3523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Mono.WebBrowser.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010667131, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010667391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010667402, "dur":2287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684042010669762, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684042010669841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684042010669849, "dur":18550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684042010688478, "dur":46186, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010507526, "dur":709, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010508236, "dur":7700, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010515943, "dur":10442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1684042010526390, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010526423, "dur":2274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1684042010528763, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1684042010528953, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010529000, "dur":42969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1684042010572044, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010572121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010572130, "dur":2136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010574315, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010574401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010574411, "dur":2139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010576624, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010576703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010576713, "dur":2965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010579752, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010579822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010579832, "dur":2260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010582158, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010582243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010582253, "dur":2341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010584670, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010584741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010584749, "dur":2094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010586899, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010586963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010586970, "dur":2285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010589312, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010589383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010589391, "dur":2534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010591971, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010592053, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010592060, "dur":4236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010596383, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010596468, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010596478, "dur":7339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010603885, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010603963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010603975, "dur":5482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010610021, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010610133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010610148, "dur":2813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010613030, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010613096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010613105, "dur":1993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010615178, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010615246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010615254, "dur":5750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010621082, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010621168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010621179, "dur":4569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010625847, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010625918, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010625929, "dur":2547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010628569, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010628676, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010628730, "dur":2260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010631064, "dur":462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010631531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010631582, "dur":2780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010634415, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010634461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010634467, "dur":3151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010637674, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010637921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010637931, "dur":2425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010640426, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010640668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010640677, "dur":2759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010643505, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Web.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010643570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010643585, "dur":5315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Web.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010648955, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010649029, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010649036, "dur":2837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010651935, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010652095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010652103, "dur":4791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010656970, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010657041, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010657051, "dur":5283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010662409, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010662520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010662531, "dur":2973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010665578, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Mono.Data.Sqlite.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010665649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010665667, "dur":3618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Mono.Data.Sqlite.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684042010669350, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1684042010669418, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010669957, "dur":2545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1684042010672566, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1684042010672676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010672683, "dur":4020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1684042010676784, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1684042010676854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684042010676862, "dur":4226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1684042010681165, "dur":53531, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684042010507550, "dur":689, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684042010508239, "dur":7695, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684042010515943, "dur":11807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1684042010527757, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684042010528373, "dur":1628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1684042010530073, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1684042010530260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684042010530383, "dur":8205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1684042010538678, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1684042010538884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684042010538896, "dur":3827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1684042010542796, "dur":158573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684042010701374, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684042010701382, "dur":16093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684042010717525, "dur":17282, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684042010507583, "dur":665, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684042010508248, "dur":7691, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684042010515942, "dur":10469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1684042010526416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684042010526436, "dur":2382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1684042010528883, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1684042010529044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684042010529816, "dur":4823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1684042010534803, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1684042010534997, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684042010535013, "dur":10082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1684042010545167, "dur":81188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":8, "ts":1684042010626360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684042010626368, "dur":2791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":8, "ts":1684042010629222, "dur":622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684042010629852, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684042010629862, "dur":3823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684042010633750, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684042010633835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684042010633846, "dur":3429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684042010637344, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684042010637417, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684042010637427, "dur":2416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684042010639914, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684042010640103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684042010640113, "dur":2201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684042010642366, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Web.Services.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684042010642412, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684042010642419, "dur":2783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Web.Services.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684042010645281, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684042010645382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684042010645396, "dur":2946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684042010648487, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Runtime.Serialization.Formatters.Soap.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684042010648609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684042010648621, "dur":2575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Runtime.Serialization.Formatters.Soap.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684042010651280, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684042010651348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684042010651357, "dur":4745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684042010656182, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684042010656245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684042010656253, "dur":5439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684042010661785, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Novell.Directory.Ldap.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684042010661861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684042010661871, "dur":3111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Novell.Directory.Ldap.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684042010665063, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Mono.Posix.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684042010665165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684042010665178, "dur":2555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Mono.Posix.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684042010667798, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Accessibility.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684042010667870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684042010667878, "dur":3426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/Managed/Accessibility.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684042010671379, "dur":14812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1684042010686223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684042010686238, "dur":2306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/em30a/OneDrive/Escritorio/Catto Diretto V1.0.0_32-Bit/Catto Diretto_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1684042010688598, "dur":46064, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684042010742477, "dur":3932, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1684042010778388, "dur": 3782, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684042010774948, "dur": 7283, "ph": "X", "name": "Write chrome-trace events", "args": {} },
